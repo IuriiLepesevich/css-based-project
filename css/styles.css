@@ -134,6 +134,7 @@ body > * {
 .quote-text {
     font-size: 36px;
     color: #1f2937;
+    font-style: italic;
 }
 
 .quote-author {
