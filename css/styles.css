@@ -18,10 +18,33 @@ body > * {
     padding: 0px;
 }
 
-.header {
+.header,
+.footer,
+.top-holder {
     background-color: #1f2937;
-    font-size: 18px;
+}
+
+.lefl-li,
+.top-heading {
+    color: #f9faf8;
+}
+
+.header,
+.top-text,
+.button,
+.signup-section,
+.bottom-button,
+.footer {
     color: #e5e7eb;
+}
+
+.random-info,
+.quote-container {
+    color: #1f2937;
+}
+
+.header {
+    font-size: 18px;
     padding-top: 16px;
     padding-bottom: 16px;
 }
@@ -29,11 +52,9 @@ body > * {
 .left-li {
     margin-right: auto;
     font-size: 24px;
-    color: #f9faf8;
 }
 
 .top-holder {
-    background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     padding-top: 136px;
@@ -50,12 +71,10 @@ body > * {
 .top-heading {
     font-size: 48px;
     font-weight: 900;
-    color: #f9faf8;
 }
 
 .top-text {
     font-size: 18px;
-    color: #e5e7eb;
     margin-bottom: auto;
 }
 
@@ -69,7 +88,6 @@ body > * {
     background-color: #3882f6;
     border-radius: 8px;
     padding: 10px 30px;
-    color: #e5e7eb;
     font-size: 18px;
     font-weight: bold;
     border: 0px;
@@ -86,7 +104,6 @@ body > * {
 
 .middle-header {
     font-size: 36px;
-    color: #1f2937;
     font-weight: bold;
 }
 
@@ -133,7 +150,6 @@ body > * {
 
 .quote-text {
     font-size: 36px;
-    color: #1f2937;
     font-style: italic;
 }
 
@@ -159,7 +175,6 @@ body > * {
     border-radius: 10px;
     padding-top: 50px;
     padding-bottom: 50px;
-    color: #f9faf8;
 }
 
 .signup-text-holder {
@@ -180,16 +195,13 @@ body > * {
 .bottom-button {
     background-color: #3882f6;
     border-radius: 10px;
-    border: 2px solid #f9faf8;
-    color: #f9faf8;
+    border: 2px solid #e5e7eb;
     font-size: 28px;
     font-weight: 600;
     padding: 5px 25px;
 }
 
 .footer {
-    background-color: #1f2937;
-    color: #f9faf8;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
